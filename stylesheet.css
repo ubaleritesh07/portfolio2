@@ -96,26 +96,7 @@ body
     animation-delay: calc(.2s * var(--i));
     
 }
-.Resume{
-    display: inline-block;
-    position: relative;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px; 
-    font-size: 16px;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 1;
-    z-index: 10;
-    animation: slideTop 1s case forwards ;
-    animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-    0 0 25px #0ef
-    
 
-}
 .navbar a:hover
 {
     color: rgb(0, 228, 221);
@@ -394,6 +375,8 @@ p{
 {
     font-size:60px;
     color: #ffffff;
+   
+    
     
     
 }
@@ -402,20 +385,13 @@ p{
     
 }
 
-.about-text h4 span:hover{
-    
-        box-shadow: 0 0 5px cyan,
-        0 0 25px cyan, 0 0 50px cyan,
-        0 0 100px cyan,0 0 200px cyan
-    
 
-}
 .about-text h3{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     color: #ffffff;
     line-height: 1.7;
-    margin: 15px 0 0 0;
+    margin-top: 50px;
 }
 .about-text p{
     color:rgb(255, 255, 255);
@@ -595,13 +571,13 @@ section{
     content:"90%";
 }
 .progress-line.css span::after{
-    content:"70%";
+    content:"90%";
 }
 .progress-line.Javascript span::after{
-    content:"95%";
+    content:"85%";
 }
 .progress-line.python span::after{
-    content:"50%";
+    content:"91%";
 }
 .progress-line.react span::after{
     content:"75%";
@@ -827,6 +803,8 @@ section{
     line-height: 1;
     position: relative;
     text-align: center;
+    margin-top: 150px;
+    margin-bottom: 70px;
 }
 .contact-text h2 span{
     color:#0ef;
@@ -894,7 +872,7 @@ section{
 
 .contact-form form{
     position:relative;
-    max-width: 60vw;
+    max-width: 40vw;
     
 }
 .contact-form form input,form textarea{
